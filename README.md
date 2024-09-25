@@ -2,7 +2,7 @@
 
 ### Intro
 Héctor es un granjero que se gana la vida cultivando plantas de distintas especies.
-Para ello tiene que sembrar, regar y cosechar sus cultivos. Después de la cosecha, Héctor vende lo que cultivó, obteniendo ganancias en la forma de monedas de oro.
+Para ello tiene que sembrar, regar y cosechar sus cultivos de su granja. Después de la cosecha, Héctor vende lo que cultivó, obteniendo ganancias en la forma de monedas de oro.
 Héctor es muy ahorrativo y todo el oro que obtiene por sus cosechas lo acumula.
 
 Nuestro objetivo es construir un juego en el que podamos controlar a héctor, 
@@ -13,6 +13,8 @@ En este juego consideramos tres especies: _maíz_, _trigo_ y _tomaco_.
 Contamos con imágenes en la carpeta assets para ilustrar el juego.
 
 TIP: En los nombres de las imágenes, recordar que "corn" es maíz y "wheat" es trigo en inglés.
+
+De la granja se conocen los cultivos sembrados y si hay alguno en una parcela específica, como también los cultivos en una parcela dada, y no deberían estár en la granja si fueron cosechados.
 
 ### Sembrar
 Además de moverse, Héctor debe poder realizar las siguientes acciones:

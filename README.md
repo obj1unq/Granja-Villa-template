@@ -14,7 +14,7 @@ Contamos con imágenes en la carpeta assets para ilustrar el juego.
 
 TIP: En los nombres de las imágenes, recordar que "corn" es maíz y "wheat" es trigo en inglés.
 
-De la granja se conocen los cultivos sembrados y si hay alguno en una parcela específica, como también los cultivos en una parcela dada, y no deberían estár en la granja si fueron cosechados.
+De la granja se conocen los cultivos sembrados y si hay alguno en una parcela específica, como también los cultivos en una parcela dada, y no deberían estár más en la granja una vez cosechados.
 
 ### Sembrar
 Además de moverse, Héctor debe poder realizar las siguientes acciones:

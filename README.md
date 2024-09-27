@@ -105,8 +105,4 @@ Cada mercado tiene una cantidad de monedas, y mercadería para vender.
 Hacer que Héctor solamente pueda vender si está en un mercado, y además el mercado tiene suficiente cantidad de monedas para pagar lo que Héctor tiene para vender. En tal caso, la mercadería se agrega al mercado, y se le descuentan las monedas que le da a Héctor en pago.  
 
 ## TESTEO DE JUEGOS
-Aclaración: Wollok Game mantiene su estado entre cada test, en vez de reiniciar como pasa con los objetos. 
-Para subsanar esta caracteristica se debe  agregar un game.clear() en el método initialize del describe.
-También lo necesario para que el juego esté en las condiciones para testear (tamaño del tablero, visuales necesarios, etc.).
-NO se debe dar game.start(), ya que iniciaria el juego en vez de ejecutar los tests.
-Y al no poder testearse los onTick, onPressDo etc. se simula testeando la orden que se usa ne dichos bloques.
+Aclaración: Al no poder testearse los onTick, onPressDo etc. se simula testeando el modelo, o sea la orden que se usa en dichos bloques.

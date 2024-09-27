@@ -2,17 +2,22 @@
 
 ### Intro
 Héctor es un granjero que se gana la vida cultivando plantas de distintas especies.
-Para ello tiene que sembrar, regar y cosechar sus cultivos. Después de la cosecha, Héctor vende lo que cultivó, obteniendo ganancias en la forma de monedas de oro.
+Para ello tiene que sembrar, regar y cosechar sus cultivos de su granja. Después de la cosecha, Héctor vende lo que cultivó, obteniendo ganancias en la forma de monedas de oro.
 Héctor es muy ahorrativo y todo el oro que obtiene por sus cosechas lo acumula.
 
 Nuestro objetivo es construir un juego en el que podamos controlar a héctor, 
 utilizando el teclado para moverlo alrededor del tablero. 
+
+RECORDAR realizar los test correspondientes para los requerimientos dados. 
+Al final del readme se encuantra un apartado sobre el testeo del juego.
 
 En este juego consideramos tres especies: _maíz_, _trigo_ y _tomaco_. 
 
 Contamos con imágenes en la carpeta assets para ilustrar el juego.
 
 TIP: En los nombres de las imágenes, recordar que "corn" es maíz y "wheat" es trigo en inglés.
+
+De la granja se conocen los cultivos sembrados y si hay alguno en una parcela (posición) específica, como también los cultivos de una parcela dada. Además no deberían estár más en la granja una vez cosechados por Hector.
 
 ### Sembrar
 Además de moverse, Héctor debe poder realizar las siguientes acciones:
@@ -83,7 +88,6 @@ P.ej. "tengo 800 monedas, y 3 plantas para vender".
 **Atenti**  
 Una vez que vende lo que tiene para vender, obviamente, deja de tenerlo.
 
-
 ## Bonus
 
 ### Aspersores
@@ -99,3 +103,6 @@ Buscar la docentación de Wollok game en http://www.wollok.org/documentacion/wol
 Incluir dos o tres mercados (imagen `market.png`), eligiendo dónde poner cada uno en el tablero. 
 Cada mercado tiene una cantidad de monedas, y mercadería para vender.  
 Hacer que Héctor solamente pueda vender si está en un mercado, y además el mercado tiene suficiente cantidad de monedas para pagar lo que Héctor tiene para vender. En tal caso, la mercadería se agrega al mercado, y se le descuentan las monedas que le da a Héctor en pago.  
+
+## TESTEO DE JUEGOS
+Aclaración: Al no poder testearse los onTick, onPressDo etc. se simula testeando el modelo, o sea, las ordenes que se usan en dichos bloques de código.

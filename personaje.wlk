@@ -1,6 +1,6 @@
 import wollok.game.*
 
-object hector {
+object personaje {
 	var property position = game.center()
-	const property image = "player.png"
+	const property image = "fplayer.png"
 }
